@@ -9,5 +9,5 @@ Contributors:
 	
 ## Content
 
-* [Data on the effective constitutive behavior of soft 3D beam-lattice metamaterials](./beam_lattice_metematerials.ipynb)
+* [Data on the effective constitutive behavior of soft 3D beam-lattice metamaterials](beam_lattice_metematerials.ipynb)
 * Data on the effective constitutive behavior of 2D textile materials
