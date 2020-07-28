@@ -11,6 +11,19 @@ Contributors:
 	
 ## Content
 
-* [Data on the effective constitutive behavior of soft 3D beam-lattice metamaterials](beam_lattice_metamaterials.ipynb)
+* [Data on the effective constitutive behavior of soft 3D beam-lattice metamaterials](soft_beam_lattice_metamaterials.ipynb)
 	* This dataset was used in the work "Anisotropic hyperelastic material models for finite deformations combining material theory and data-driven approaches with application to cubic lattice metamaterials" by M. Fernández, M. Jamshidian, T. Böhlke, K. Kersting and O. Weeger (in preparation). 
 * Data on the effective constitutive behavior of 2D textile materials
+
+## License
+
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
