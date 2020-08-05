@@ -5,10 +5,9 @@ This repository offers a collection of simulation datasets from mechanical simul
 Maintainer: Mauricio Fernández [email](mailto:fernandez@cps.tu-darmstadt.de)
 
 Contributors: 
-* Mauricio Fernández (
-[Website](https://www.maschinenbau.tu-darmstadt.de/cps/department_cps/team_1/team_detail_184000.en.jsp), [GitHub](https://github.com/mauricio-fernandez-l), 
-[Google Scholar](https://scholar.google.com/citations?hl=de&user=pwQ_YNEAAAAJ&view_op=list_works&sortby=pubdate)
-)
+* Mauricio Fernández ([Website](https://www.maschinenbau.tu-darmstadt.de/cps/department_cps/team_1/team_detail_184000.en.jsp),
+[GitHub](https://github.com/mauricio-fernandez-l), 
+[Google Scholar](https://scholar.google.com/citations?hl=de&user=pwQ_YNEAAAAJ&view_op=list_works&sortby=pubdate))
 * Mostafa Jamshidian
 * Oliver Weeger ([Website](https://www.maschinenbau.tu-darmstadt.de/cps/department_cps/team_1/team_detail_167232.en.jsp))
 	
