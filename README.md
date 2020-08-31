@@ -16,8 +16,9 @@ Contributors:
 The following Jupyter notebooks illustrate the provided datasets. 
 
 * [Data on the effective constitutive behavior of soft 3D beam-lattice metamaterials](soft_beam_lattice_metamaterials.ipynb)
-	* This dataset was used in the work "Anisotropic hyperelastic material models for finite deformations combining material theory and data-driven approaches with application to cubic lattice metamaterials" by M. Fernández, M. Jamshidian, T. Böhlke, K. Kersting and O. Weeger (in preparation). 
-* Data on the effective constitutive behavior of 2D textile materials
+	* This dataset was used in the work "Anisotropic hyperelastic material models for finite deformations combining material theory and data-driven approaches with application to cubic lattice metamaterials" by M. Fernández, M. Jamshidian, T. Böhlke, K. Kersting and O. Weeger, submitted 08/2020, pre-print: [http://doi.org/10.13140/RG.2.2.19350.78409](DOI 10.13140/RG.2.2.19350.78409)). 
+* [Data on the multiscale simulation of graded knitted textiles](data/graded_knitted_textiles)
+	* This dataset was used in the work "Nonlinear isogeometric multiscale simulation for design and fabrication of functionally graded knitted textiles" by H. Do, Y.Y. Tan, N. Ramos, J. Kiendl and O. Weeger, submitted 05/2020, pre-print: [http://doi.org/10.13140/RG.2.2.36179.60969](DOI 10.13140/RG.2.2.36179.60969). 
 
 ## License
 
