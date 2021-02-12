@@ -62,7 +62,7 @@ def plot_WP(
             )
         axx.legend()
         axx.set_xlabel(x_label)
-        axx.set_ylabel('$W [J/m^3]$')
+        axx.set_ylabel('$W \\quad [J/m^3]$')
     
     #P
     if len(Ps) > 0:
@@ -78,6 +78,6 @@ def plot_WP(
                     )
         axx.legend(bbox_to_anchor=(1.05, 1.))
         axx.set_xlabel(x_label)
-        axx.set_ylabel('$P_{ij} [Pa]$')
+        axx.set_ylabel('$P_{ij} \\quad [Pa]$')
     
     plt.show()
