@@ -21,7 +21,7 @@ The following Jupyter notebooks and readme files illustrate the provided dataset
 * [Data on the multiscale simulation of graded knitted textiles](data/graded_knitted_textiles)
 	* This dataset was used in the work **"Nonlinear isogeometric multiscale simulation for design and fabrication of functionally graded knitted textiles"** by H. Do, Y.Y. Tan, N. Ramos, J. Kiendl and O. Weeger, submitted 05/2020, pre-print: [DOI 10.13140/RG.2.2.36179.60969](http://doi.org/10.13140/RG.2.2.36179.60969). 
 * [Data on the effective constitutive behavior of parametric soft 3D beam-lattice metamaterials](data/parametric_beam_lattice_metamaterials/parametric_beam_lattice_metamaterials.ipynb)
-	* This dataset was used in the work **"Material modeling for parametric, anisotropic finite hyperelasticity based on machine learning with application in optimization of metamaterials"** by M. Fernández, F. Fritzen and O. Weeger, submitted 02/2021, pre-print: [DOI ]().
+	* This dataset was used in the work **"Material modeling for parametric, anisotropic finite hyperelasticity based on machine learning with application in optimization of metamaterials"** by M. Fernández, F. Fritzen and O. Weeger, submitted 02/2021, pre-print: [DOI 10.13140/RG.2.2.21536.10242](http://doi.org/10.13140/RG.2.2.21536.10242).
 
 ## License
 
