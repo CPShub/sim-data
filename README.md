@@ -7,9 +7,9 @@ Maintainer: Mauricio Fernández [email](mailto:fernandez@cps.tu-darmstadt.de)
 Contributors: 
 * Mauricio Fernández ([Website](https://www.maschinenbau.tu-darmstadt.de/cps/department_cps/team_1/team_detail_184000.en.jsp),
 [GitHub](https://github.com/mauricio-fernandez-l), 
-[Google Scholar](https://scholar.google.com/citations?hl=de&user=pwQ_YNEAAAAJ&view_op=list_works&sortby=pubdate))
-* Mostafa Jamshidian ([Google Scholar](https://scholar.google.com.sg/citations?hl=en&user=oMXnfx8AAAAJ&view_op=list_works&sortby=pubdate#))
-* Oliver Weeger ([Website](https://www.maschinenbau.tu-darmstadt.de/cps/department_cps/team_1/team_detail_167232.en.jsp))
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=pwQ_YNEAAAAJ&view_op=list_works&sortby=pubdate))
+* Mostafa Jamshidian ([Google Scholar](https://scholar.google.com/citations?hl=en&user=oMXnfx8AAAAJ&view_op=list_works&sortby=pubdate#))
+* Oliver Weeger ([Website](https://www.maschinenbau.tu-darmstadt.de/cps/department_cps/team_1/team_detail_167232.en.jsp), [Google Scholar](https://scholar.google.com/citations?hl=en&user=0tr3W5UAAAAJ&view_op=list_works&sortby=pubdate))
 * Huy Do 
 	
 ## Content
@@ -19,9 +19,10 @@ The following Jupyter notebooks and readme files illustrate the provided dataset
 * [Data on the effective constitutive behavior of soft 3D beam-lattice metamaterials](data/soft_beam_lattice_metamaterials/soft_beam_lattice_metamaterials.ipynb)
 	* This dataset was used in the work **"Anisotropic hyperelastic material models for finite deformations combining material theory and data-driven approaches with application to cubic lattice metamaterials"** by M. Fernández, M. Jamshidian, T. Böhlke, K. Kersting and O. Weeger. Comput Mech (2020) [DOI 10.1007/s00466-020-01954-7](https://doi.org/10.1007/s00466-020-01954-7). 
 * [Data on the multiscale simulation of graded knitted textiles](data/graded_knitted_textiles)
-	* This dataset was used in the work **"Nonlinear isogeometric multiscale simulation for design and fabrication of functionally graded knitted textiles"** by H. Do, Y.Y. Tan, N. Ramos, J. Kiendl and O. Weeger, submitted 05/2020, pre-print: [DOI 10.13140/RG.2.2.36179.60969](http://doi.org/10.13140/RG.2.2.36179.60969). 
+	* This dataset was used in the work **"Nonlinear isogeometric multiscale simulation for design and fabrication of functionally graded knitted textiles"** by H. Do, Y.Y. Tan, N. Ramos, J. Kiendl and O. Weeger. Composites Part B: Engineering, 202, p. 108416 (2020) [DOI 10.1016/j.compositesb.2020.108416](http://doi.org/10.1016/j.compositesb.2020.108416). 
 * [Data on the effective constitutive behavior of parametric soft 3D beam-lattice metamaterials](data/parametric_beam_lattice_metamaterials/parametric_beam_lattice_metamaterials.ipynb)
 	* This dataset was used in the work **"Material modeling for parametric, anisotropic finite hyperelasticity based on machine learning with application in optimization of metamaterials"** by M. Fernández, F. Fritzen and O. Weeger, submitted 02/2021, pre-print: [DOI 10.13140/RG.2.2.21536.10242](http://doi.org/10.13140/RG.2.2.21536.10242).
+* [Data for second-gradient linear elastic homogenization of 3D beam lattices](data/lattices_secondgradient_homogenization)
 
 ## License
 
