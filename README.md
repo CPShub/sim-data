@@ -24,7 +24,7 @@ The following Jupyter notebooks and readme files illustrate the provided dataset
 	* This dataset was used in the work **"Material modeling for parametric, anisotropic finite hyperelasticity based on machine learning with application in optimization of metamaterials"** by M. Fernández, F. Fritzen and O. Weeger, submitted 02/2021, pre-print: [DOI 10.13140/RG.2.2.21536.10242](http://doi.org/10.13140/RG.2.2.21536.10242).
 * [Data for second-gradient linear elastic homogenization of 3D beam lattices](data/lattices_secondgradient_homogenization)
 	* This dataset was used in the work **"Numerical homogenization of second gradient, linear elastic constitutive models for cubic 3D beam-lattice metamaterials"** by O. Weeger. International Journal of Solids and Structures, 224, p. 111037 (2021), [DOI 10.1016/j.ijsolstr.2021.03.024](https://doi.org/10.1016/j.ijsolstr.2021.03.024).
-* [Data for the stochastic homogenization and ANN-based nonlinear multiscale simulation of a BCC lattice](data/bcc_ann_multiscale/bcc_ann_multiscale.ipynb)
+* [Data for the stochastic homogenization and ANN-based nonlinear multiscale simulation of a BCC lattice](data/bcc_ann_multiscale)
 	* This dataset was used in the work **"Nonlinear multiscale simulation of elastic beam lattices with anisotropic homogenized constitutive models based on artificial neural networks"** by T. Gärtner, M. Fernández, and O. Weeger, submitted 03/2021, pre-print: [DOI 10.13140/RG.2.2.18450.17604](http://doi.org/10.13140/RG.2.2.18450.17604).
 
 ## License
