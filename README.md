@@ -11,6 +11,7 @@ Contributors:
 * Mostafa Jamshidian ([Google Scholar](https://scholar.google.com/citations?hl=en&user=oMXnfx8AAAAJ&view_op=list_works&sortby=pubdate#))
 * Oliver Weeger ([Website](https://www.maschinenbau.tu-darmstadt.de/cps/department_cps/team_1/team_detail_167232.en.jsp), [Google Scholar](https://scholar.google.com/citations?hl=en&user=0tr3W5UAAAAJ&view_op=list_works&sortby=pubdate))
 * Huy Do 
+* Dominik Klein
 	
 ## Content
 
@@ -26,7 +27,9 @@ The following Jupyter notebooks and readme files illustrate the provided dataset
 	* This dataset was used in the work **"Numerical homogenization of second gradient, linear elastic constitutive models for cubic 3D beam-lattice metamaterials"** by O. Weeger. International Journal of Solids and Structures, 224, p. 111037 (2021), [DOI 10.1016/j.ijsolstr.2021.03.024](https://doi.org/10.1016/j.ijsolstr.2021.03.024).
 * [Data for the stochastic homogenization and ANN-based nonlinear multiscale simulation of a BCC lattice](data/bcc_ann_multiscale)
 	* This dataset was used in the work **"Nonlinear multiscale simulation of elastic beam lattices with anisotropic homogenized constitutive models based on artificial neural networks"** by T. Gärtner, M. Fernández, and O. Weeger, submitted 03/2021, pre-print: [DOI 10.13140/RG.2.2.18450.17604](http://doi.org/10.13140/RG.2.2.18450.17604).
-
+* [Polyconvex anisotropic hyperelastic neural networks for beam-lattice metamaterials](data/polyconvex_ANNs)
+	* These neural networks were used in the work **"Polyconvex anisotropic hyperelasticity with neural networks"** by D. Klein, M. Fernández, R. J. Martin, P. Neff and O. Weeger, submitted 06/2021, pre-print: [Researchgate](https://www.researchgate.net/publication/352568857_Polyconvex_anisotropic_hyperelasticity_with_neural_networks). 
+	
 ## License
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
