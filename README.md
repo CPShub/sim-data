@@ -2,7 +2,7 @@
 
 This repository offers a collection of simulation datasets from mechanical simulations of metamaterials. Jupyter notbooks demonstrate how the datasets can be loaded.
 
-Maintainer: Mauricio Fernández [email](mailto:fernandez@cps.tu-darmstadt.de)
+Maintainer: Dominik Klein [email](mailto:klein@cps.tu-darmstadt.de)
 
 Contributors: 
 * Mauricio Fernández ([Website](https://www.maschinenbau.tu-darmstadt.de/cps/department_cps/team_1/team_detail_184000.en.jsp),
