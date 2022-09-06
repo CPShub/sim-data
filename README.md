@@ -30,7 +30,7 @@ The following Jupyter notebooks and readme files illustrate the provided dataset
 * [Polyconvex constitutive models with neural networks for beam-lattice metamaterials](data/polyconvex_ANNs)
 	* These neural networks were used in the work **"Polyconvex anisotropic hyperelasticity with neural networks"** by D. K. Klein, M. Fernández, R. J. Martin, P. Neff and O. Weeger, accepted in the Journal of the Mechanics and Physics of Solids, [DOI: 10.1016/j.jmps.2021.104703](https://doi.org/10.1016/j.jmps.2021.104703), see also [arxiv.org/abs/2106.14623](https://arxiv.org/abs/2106.14623). 
 * [Finite electro-elasticity with physics-augmented neural networks](data/em)
-	* These neural networks were used in the work **"Finite electro-elasticity with physics-augmented neural networks"** by D. K. Klein, R. Ortigosa, J. Martínez-Frutos and O. Weeger, accepted in Computer Methods in Applied Mechanics and Engineering.
+	* These neural networks were used in the work **"Finite electro-elasticity with physics-augmented neural networks"** by D. K. Klein, R. Ortigosa, J. Martínez-Frutos and O. Weeger, accepted in Computer Methods in Applied Mechanics and Engineering, [DOI: 10.1016/j.cma.2022.115501](https://doi.org/10.1016/j.cma.2022.115501), see also [arxiv.org/abs/2206.05139](https://arxiv.org/abs/2206.05139). 
 	
 ## License
 
