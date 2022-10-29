@@ -3,7 +3,7 @@ Data for experimental characterization and test, plots and reproduction of simul
 by Oliver Weeger, Iman Valizadeh, Yash Mistry, Dhruv Bhate    
 License: CC BY 4.0    
    
-Contents:   
+Contents:
 - Fig. 2: Characterization of the material model for the laser sintered Polyamide 12 based on uniaxial tension tests
 - Fig. 3: Compression tests of SLS printed 3×3×3 BCC lattice structures
 - Fig. 4: Characterization of the material model for the MSLA printed polymer
