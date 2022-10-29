@@ -1,0 +1,87 @@
+\documentclass[margin=5mm]{standalone}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepgfplotslibrary{groupplots}
+\pgfplotsset{compat=1.18}
+
+\newcommand{\sinv}{s\textsuperscript{$-1$}}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{tikzpicture} 
+
+	\begin{axis}[ 
+	    height=27em, 
+		width=36em, 
+		grid=both,
+		xmin=0.0,
+		xmax=0.06, 
+		xtick distance=0.01,
+		xlabel={strain [.]},
+		x tick label style={
+	        /pgf/number format/.cd,
+	            fixed,
+	            fixed zerofill,
+	            precision=2,
+	        /tikz/.cd
+	    },	
+	    scaled ticks=false,
+		ymin=0, %-4.0,
+		ymax=60.0,
+		ytick distance=5,
+		ylabel={stress [MPa]},
+%		ytick distance=10,
+    	y tick label style={
+	        /pgf/number format/.cd,
+	            fixed,
+	            fixed zerofill,
+	            precision=0,
+	        /tikz/.cd
+	    },	
+		legend style={legend pos=south east,  cells={anchor=west}}
+	] 
+
+    \node[draw, fill=black!10, right] at (axis cs: 0.002,56) {\large SLS: PA12};
+    
+    \addplot[color=orange, dashed, very thick, mark=o, mark options={solid}, mark size=0, opacity=0.8, each nth point=2] 
+    table[x expr=\thisrow{strain}, y expr=\thisrow{stress}] {asu_uni_test_1e-4.txt};
+    \addlegendentry{test, $\dot \varepsilon=10^{-4}$ \sinv};
+    
+    \addplot[color=orange, solid, very thick, mark=o, mark options={solid}, mark size=0, opacity=0.8, each nth point=1] 
+    table[x expr=\thisrow{eps}, y expr=\thisrow{sig_1e-4}] {asu_uni_model_data.txt};
+    \addlegendentry{model, $\dot \varepsilon=10^{-4}$ \sinv};
+    
+    
+    \addplot[color=MidnightBlue, dashed, very thick, mark=o, mark options={solid}, mark size=0, opacity=0.8, each nth point=2] 
+    table[x expr=\thisrow{strain}, y expr=\thisrow{stress}] {asu_uni_test_1e-3.txt};
+    \addlegendentry{test, $\dot \varepsilon=10^{-3}$ \sinv};
+    
+    \addplot[color=MidnightBlue, solid, very thick, mark=o, mark options={solid}, mark size=0, opacity=0.8, each nth point=1] 
+    table[x expr=\thisrow{eps}, y expr=\thisrow{sig_1e-3}] {asu_uni_model_data.txt};
+    \addlegendentry{model, $\dot \varepsilon=10^{-3}$ \sinv};
+    
+    
+    \addplot[color=purple, dashed, very thick, mark=o, mark options={solid}, mark size=0, opacity=0.8, each nth point=2] 
+    table[x expr=\thisrow{strain}, y expr=\thisrow{stress}] {asu_uni_test_1e-2.txt};
+    \addlegendentry{test, $\dot \varepsilon=10^{-2}$ \sinv};
+    
+    \addplot[color=purple, solid, very thick, mark=o, mark options={solid}, mark size=0, opacity=0.8, each nth point=1] 
+    table[x expr=\thisrow{eps}, y expr=\thisrow{sig_1e-2}] {asu_uni_model_data.txt};
+    \addlegendentry{model, $\dot \varepsilon=10^{-2}$ \sinv};
+    
+    
+    \addplot[color=gray, dashed, very thick, mark=o, mark options={solid}, mark size=0, opacity=0.8, each nth point=2] 
+    table[x expr=\thisrow{strain}, y expr=\thisrow{stress}] {asu_uni_test_1e-1.txt};
+    \addlegendentry{test, $\dot \varepsilon=10^{-1}$ \sinv};
+    
+    \addplot[color=gray, solid, very thick, mark=o, mark options={solid}, mark size=0, opacity=0.8, each nth point=1] 
+    table[x expr=\thisrow{eps}, y expr=\thisrow{sig_1e-1}] {asu_uni_model_data.txt};
+    \addlegendentry{model, $\dot \varepsilon=10^{-1}$ \sinv};
+
+	\end{axis} 
+	
+\end{tikzpicture}
+
+\end{document}

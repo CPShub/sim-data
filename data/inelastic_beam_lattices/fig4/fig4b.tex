@@ -1,0 +1,67 @@
+\documentclass[margin=5mm]{standalone}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepgfplotslibrary{groupplots}
+\pgfplotsset{compat=1.18}
+
+\newcommand{\sinv}{s\textsuperscript{$-1$}}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{tikzpicture} 
+
+	\begin{semilogxaxis}[ 
+	    height=30em, 
+		width=40em, 
+		grid=both,
+		xmin=1,
+		xmax=1e3, 
+		xlabel={time [s]},
+	      scaled ticks=false,
+		ymin=0.0,
+		ymax=11.0,
+		ytick distance=1,
+		ylabel={stress [MPa]},
+	    	y tick label style={
+	        /pgf/number format/.cd,
+	            fixed,
+	            fixed zerofill,
+	            precision=0,
+	        /tikz/.cd
+	    },	
+		legend style={legend pos=north east,  cells={anchor=west}}
+	] 
+	
+	\node[draw, fill=black!10, right] at (axis cs: 1.3,10.2) {\large MSLA: relaxation};
+
+    \addplot[color=gray, dashed, ultra thick, mark=o, mark options={solid}, mark size=0, opacity=0.9, each nth point=20] 
+    table[x expr=\thisrow{Time}, y expr=\thisrow{Stress}] {msla_He3_test_relax_r01.txt};
+    \addlegendentry{test, $\dot \varepsilon=4\cdot 10^{-5}$ \sinv};
+    
+    \addplot[color=gray, solid, ultra thick, mark=o, mark options={solid}, mark size=0, opacity=0.9] 
+    table[x expr=\thisrow{time}, y expr=\thisrow{stress}] {msla_He3_model_relax_r01.txt};
+    \addlegendentry{model, $\dot \varepsilon=4\cdot 10^{-5}$ \sinv};
+
+    \addplot[color=purple, dashed, ultra thick, mark=o, mark options={solid}, mark size=0, opacity=0.9, each nth point=10] 
+    table[x expr=\thisrow{Time}, y expr=\thisrow{Stress}] {msla_He3_test_relax_r05.txt};
+    \addlegendentry{test, $\dot \varepsilon=2\cdot 10^{-4}$ \sinv};
+    
+    \addplot[color=purple, solid, ultra thick, mark=o, mark options={solid}, mark size=0, opacity=0.9] 
+    table[x expr=\thisrow{time}, y expr=\thisrow{stress}] {msla_He3_model_relax_r05.txt};
+    \addlegendentry{model, $\dot \varepsilon=2\cdot 10^{-4}$ \sinv};
+    
+    \addplot[color=MidnightBlue, dashed, ultra thick, mark=o, mark options={solid}, mark size=0, opacity=0.9, each nth point=3] 
+    table[x expr=\thisrow{Time}, y expr=\thisrow{Stress}] {msla_He3_test_relax_r5.txt};
+    \addlegendentry{test, $\dot \varepsilon=2\cdot 10^{-3}$ \sinv};
+    
+    \addplot[color=MidnightBlue, solid, ultra thick, mark=o, mark options={solid}, mark size=0, opacity=0.9] 
+    table[x expr=\thisrow{time}, y expr=\thisrow{stress}] {msla_He3_model_relax_r5.txt};
+    \addlegendentry{model, $\dot \varepsilon=2\cdot 10^{-3}$ \sinv};
+        
+	\end{semilogxaxis} 
+	
+\end{tikzpicture}
+
+\end{document}
