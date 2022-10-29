@@ -1,0 +1,84 @@
+\documentclass[margin=5mm]{standalone}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepgfplotslibrary{groupplots}
+\pgfplotsset{compat=1.18}
+
+\newcommand{\sinv}{s\textsuperscript{$-1$}}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{tikzpicture} 
+
+	\begin{axis}[ 
+	    height=30em, 
+		width=40em, 
+		grid=both,
+		xmin=0.0,
+		xmax=6.5, 
+		xtick distance=0.5,
+		xlabel={applied compressive displacement [mm]},
+		x tick label style={
+	        /pgf/number format/.cd,
+	            fixed,
+	            fixed zerofill,
+	            precision=1,
+	        /tikz/.cd
+	    },	
+	    scaled ticks=false,
+		ymin=0.0,
+		ymax=40.0,
+		ytick distance=5,
+		ylabel={total force [N]},
+    	y tick label style={
+	        /pgf/number format/.cd,
+	            fixed,
+	            fixed zerofill,
+	            precision=0,
+	        /tikz/.cd
+	    },	
+		legend style={legend pos=south east,  cells={anchor=west}}
+	] 
+	
+	\node[draw, fill=black!10, right] at (axis cs: 0.15,37.5) {\large MSLA: Octahedron, $d=0.8$};
+
+    \addplot[color=purple, dashed, ultra thick, mark=o, mark options={solid}, mark size=0, opacity=0.9, each nth point=20, forget plot]
+    table[x expr=\thisrow{Weg}-0.2, y expr=\thisrow{Kraft}] {msla_octah_d08_test_r0375_e45.txt};
+     
+    \addplot[color=purple, dashed, ultra thick, mark=o, mark options={solid}, mark size=0, opacity=0.9, each nth point=20] 
+    table[x expr=\thisrow{Weg}-0.2, y expr=\thisrow{Kraft}] {msla_octah_d08_test_r0375_e60.txt};
+    
+    \addlegendentry{exp., $\dot u=0.375$ mm/min};
+
+    \addplot[color=purple, solid, ultra thick, mark=o, mark options={solid}, mark size=0, opacity=0.9, each nth point=2, forget plot] 
+    table[x expr=\thisrow{lf}*4.5, y expr=\thisrow{fz}] {msla_octah_sim_r0375_e45.dat};
+    
+    \addplot[color=purple, solid, ultra thick, mark=o, mark options={solid}, mark size=0, opacity=0.9, each nth point=2] 
+    table[x expr=\thisrow{lf}*6.0, y expr=\thisrow{fz}] {msla_octah_sim_r0375_e60.dat};
+    
+    \addlegendentry{sim., $\dot u=0.375$ mm/min};
+    
+    \addplot[color=MidnightBlue, dashed, ultra thick, mark=o, mark options={solid}, mark size=0, opacity=0.9, each nth point=20, forget plot]
+    table[x expr=\thisrow{Weg}-0.2, y expr=\thisrow{Kraft}] {msla_octah_d08_test_r375_e45.txt};
+    
+    \addplot[color=MidnightBlue, dashed, ultra thick, mark=o, mark options={solid}, mark size=0, opacity=0.9, each nth point=20] 
+    table[x expr=\thisrow{Weg}-0.2, y expr=\thisrow{Kraft}] {msla_octah_d08_test_r375_e60.txt};
+    
+    \addlegendentry{exp., $\dot u=3.75$ mm/min};
+    
+    \addplot[color=MidnightBlue, solid, ultra thick, mark=o, mark options={solid}, mark size=0, opacity=0.9, each nth point=2, forget plot] 
+    table[x expr=\thisrow{lf}*4.5, y expr=\thisrow{fz}] {msla_octah_sim_r375_e45.dat};
+
+    \addplot[color=MidnightBlue, solid, ultra thick, mark=o, mark options={solid}, mark size=0, opacity=0.9, each nth point=2] 
+    table[x expr=\thisrow{lf}*6.0, y expr=\thisrow{fz}] {msla_octah_sim_r375_e60.dat};
+    
+    \addlegendentry{sim., $\dot u=3.75$ mm/min};
+
+    
+	\end{axis} 
+	
+\end{tikzpicture}
+
+\end{document}
