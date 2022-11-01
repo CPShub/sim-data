@@ -1,0 +1,4324 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Lattice structure with 3x3x3x BCC unit cells of size 10x10x10 -->
+<xml>
+<Geometry type="Nurbs" id="0">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		0 0 0
+		5 5 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="1">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 5 5
+		10 10 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="2">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 0 0
+		5 5 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="3">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 5 5
+		0 10 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="4">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		0 10 0
+		5 5 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="5">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 5 5
+		10 0 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="6">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 10 0
+		5 5 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="7">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 5 5
+		0 0 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="8">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		0 0 10
+		5 5 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="9">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 5 15
+		10 10 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="10">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 0 10
+		5 5 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="11">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 5 15
+		0 10 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="12">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		0 10 10
+		5 5 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="13">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 5 15
+		10 0 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="14">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 10 10
+		5 5 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="15">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 5 15
+		0 0 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="16">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		0 0 20
+		5 5 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="17">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 5 25
+		10 10 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="18">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 0 20
+		5 5 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="19">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 5 25
+		0 10 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="20">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		0 10 20
+		5 5 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="21">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 5 25
+		10 0 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="22">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 10 20
+		5 5 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="23">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 5 25
+		0 0 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="24">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		0 10 0
+		5 15 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="25">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 15 5
+		10 20 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="26">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 10 0
+		5 15 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="27">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 15 5
+		0 20 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="28">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		0 20 0
+		5 15 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="29">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 15 5
+		10 10 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="30">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 20 0
+		5 15 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="31">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 15 5
+		0 10 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="32">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		0 10 10
+		5 15 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="33">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 15 15
+		10 20 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="34">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 10 10
+		5 15 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="35">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 15 15
+		0 20 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="36">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		0 20 10
+		5 15 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="37">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 15 15
+		10 10 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="38">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 20 10
+		5 15 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="39">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 15 15
+		0 10 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="40">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		0 10 20
+		5 15 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="41">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 15 25
+		10 20 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="42">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 10 20
+		5 15 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="43">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 15 25
+		0 20 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="44">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		0 20 20
+		5 15 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="45">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 15 25
+		10 10 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="46">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 20 20
+		5 15 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="47">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 15 25
+		0 10 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="48">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		0 20 0
+		5 25 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="49">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 25 5
+		10 30 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="50">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 20 0
+		5 25 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="51">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 25 5
+		0 30 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="52">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		0 30 0
+		5 25 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="53">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 25 5
+		10 20 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="54">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 30 0
+		5 25 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="55">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 25 5
+		0 20 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="56">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		0 20 10
+		5 25 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="57">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 25 15
+		10 30 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="58">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 20 10
+		5 25 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="59">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 25 15
+		0 30 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="60">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		0 30 10
+		5 25 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="61">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 25 15
+		10 20 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="62">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 30 10
+		5 25 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="63">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 25 15
+		0 20 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="64">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		0 20 20
+		5 25 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="65">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 25 25
+		10 30 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="66">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 20 20
+		5 25 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="67">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 25 25
+		0 30 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="68">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		0 30 20
+		5 25 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="69">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 25 25
+		10 20 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="70">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 30 20
+		5 25 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="71">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		5 25 25
+		0 20 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="72">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 0 0
+		15 5 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="73">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 5 5
+		20 10 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="74">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 0 0
+		15 5 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="75">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 5 5
+		10 10 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="76">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 10 0
+		15 5 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="77">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 5 5
+		20 0 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="78">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 10 0
+		15 5 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="79">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 5 5
+		10 0 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="80">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 0 10
+		15 5 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="81">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 5 15
+		20 10 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="82">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 0 10
+		15 5 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="83">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 5 15
+		10 10 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="84">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 10 10
+		15 5 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="85">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 5 15
+		20 0 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="86">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 10 10
+		15 5 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="87">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 5 15
+		10 0 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="88">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 0 20
+		15 5 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="89">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 5 25
+		20 10 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="90">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 0 20
+		15 5 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="91">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 5 25
+		10 10 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="92">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 10 20
+		15 5 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="93">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 5 25
+		20 0 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="94">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 10 20
+		15 5 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="95">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 5 25
+		10 0 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="96">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 10 0
+		15 15 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="97">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 15 5
+		20 20 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="98">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 10 0
+		15 15 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="99">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 15 5
+		10 20 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="100">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 20 0
+		15 15 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="101">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 15 5
+		20 10 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="102">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 20 0
+		15 15 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="103">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 15 5
+		10 10 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="104">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 10 10
+		15 15 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="105">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 15 15
+		20 20 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="106">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 10 10
+		15 15 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="107">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 15 15
+		10 20 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="108">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 20 10
+		15 15 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="109">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 15 15
+		20 10 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="110">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 20 10
+		15 15 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="111">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 15 15
+		10 10 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="112">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 10 20
+		15 15 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="113">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 15 25
+		20 20 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="114">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 10 20
+		15 15 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="115">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 15 25
+		10 20 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="116">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 20 20
+		15 15 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="117">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 15 25
+		20 10 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="118">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 20 20
+		15 15 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="119">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 15 25
+		10 10 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="120">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 20 0
+		15 25 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="121">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 25 5
+		20 30 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="122">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 20 0
+		15 25 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="123">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 25 5
+		10 30 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="124">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 30 0
+		15 25 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="125">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 25 5
+		20 20 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="126">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 30 0
+		15 25 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="127">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 25 5
+		10 20 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="128">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 20 10
+		15 25 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="129">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 25 15
+		20 30 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="130">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 20 10
+		15 25 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="131">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 25 15
+		10 30 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="132">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 30 10
+		15 25 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="133">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 25 15
+		20 20 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="134">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 30 10
+		15 25 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="135">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 25 15
+		10 20 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="136">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 20 20
+		15 25 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="137">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 25 25
+		20 30 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="138">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 20 20
+		15 25 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="139">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 25 25
+		10 30 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="140">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		10 30 20
+		15 25 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="141">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 25 25
+		20 20 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="142">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 30 20
+		15 25 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="143">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		15 25 25
+		10 20 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="144">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 0 0
+		25 5 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="145">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 5 5
+		30 10 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="146">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		30 0 0
+		25 5 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="147">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 5 5
+		20 10 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="148">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 10 0
+		25 5 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="149">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 5 5
+		30 0 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="150">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		30 10 0
+		25 5 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="151">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 5 5
+		20 0 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="152">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 0 10
+		25 5 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="153">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 5 15
+		30 10 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="154">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		30 0 10
+		25 5 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="155">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 5 15
+		20 10 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="156">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 10 10
+		25 5 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="157">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 5 15
+		30 0 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="158">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		30 10 10
+		25 5 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="159">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 5 15
+		20 0 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="160">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 0 20
+		25 5 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="161">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 5 25
+		30 10 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="162">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		30 0 20
+		25 5 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="163">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 5 25
+		20 10 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="164">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 10 20
+		25 5 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="165">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 5 25
+		30 0 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="166">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		30 10 20
+		25 5 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="167">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 5 25
+		20 0 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="168">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 10 0
+		25 15 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="169">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 15 5
+		30 20 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="170">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		30 10 0
+		25 15 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="171">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 15 5
+		20 20 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="172">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 20 0
+		25 15 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="173">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 15 5
+		30 10 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="174">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		30 20 0
+		25 15 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="175">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 15 5
+		20 10 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="176">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 10 10
+		25 15 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="177">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 15 15
+		30 20 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="178">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		30 10 10
+		25 15 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="179">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 15 15
+		20 20 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="180">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 20 10
+		25 15 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="181">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 15 15
+		30 10 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="182">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		30 20 10
+		25 15 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="183">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 15 15
+		20 10 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="184">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 10 20
+		25 15 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="185">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 15 25
+		30 20 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="186">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		30 10 20
+		25 15 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="187">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 15 25
+		20 20 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="188">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 20 20
+		25 15 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="189">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 15 25
+		30 10 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="190">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		30 20 20
+		25 15 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="191">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 15 25
+		20 10 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="192">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 20 0
+		25 25 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="193">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 25 5
+		30 30 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="194">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		30 20 0
+		25 25 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="195">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 25 5
+		20 30 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="196">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 30 0
+		25 25 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="197">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 25 5
+		30 20 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="198">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		30 30 0
+		25 25 5
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="199">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 25 5
+		20 20 10
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="200">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 20 10
+		25 25 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="201">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 25 15
+		30 30 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="202">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		30 20 10
+		25 25 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="203">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 25 15
+		20 30 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="204">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 30 10
+		25 25 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="205">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 25 15
+		30 20 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="206">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		30 30 10
+		25 25 15
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="207">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 25 15
+		20 20 20
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="208">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 20 20
+		25 25 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="209">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 25 25
+		30 30 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="210">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		30 20 20
+		25 25 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="211">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 25 25
+		20 30 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="212">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		20 30 20
+		25 25 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="213">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 25 25
+		30 20 30
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="214">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		30 30 20
+		25 25 25
+	</coefs>
+</Geometry>
+<Geometry type="Nurbs" id="215">
+	<Basis type="NurbsBasis">
+		<Basis type="BSplineBasis">
+			<KnotVector degree="1">
+				0
+				0
+				8.66025403784439
+				8.66025403784439
+			</KnotVector>
+		</Basis>
+		<weights>
+			1
+			1
+		</weights>
+	</Basis>
+	<coefs geoDim="3">
+		25 25 25
+		20 20 30
+	</coefs>
+</Geometry>
+</xml>
